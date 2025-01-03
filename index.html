@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vedant Gaikwad | Portfolio</title>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+/>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Favicon (optional) -->
+  <!-- <link rel="icon" href="assets/favicon.ico" /> -->
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="50">
+  <!-- NAVBAR -->
+  <nav
+    class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"
+    id="navbarNav"
+  >
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">VEDANT GAIKWAD</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#profile">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#other-info">Other Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="container py-5">
+    <!-- PROFILE SECTION -->
+    <section id="profile" class="mb-5">
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+          <!-- Replace with your own profile image -->
+          <div class="col-md-4 text-center">
+            <img
+              src="./assets/vedant-profile.jpg.jpeg"
+              alt="Profile Picture"
+              class="img-fluid rounded-circle"
+              style="max-width: 200px;"
+            />
+          </div>
+          
+        </div>
+        <div class="col-md-8">
+          <h1>Profile</h1>
+          <p>
+            A creative and data-driven problem solver with a strong foundation 
+            in data analytics, machine learning, and AI. Proficient in Python, 
+            SQL, and Tableau. I leverage advanced analytics to drive business 
+            growth and process optimization. Passionate about applying 
+            cutting-edge AI technologies, including Generative AI, to deliver 
+            data-driven insights and innovative solutions at the forefront 
+            of technology.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <h2 class="mb-4">My Journey</h2>
+    <div class="timeline">
+      <!-- Timeline Item 1 -->
+      <div class="timeline-item">
+        <div class="timeline-icon">
+          <i class="bi bi-mortarboard"></i> <!-- Example Bootstrap icon -->
+        </div>
+        <div class="timeline-content">
+          <h4>Master of Science in Data Analytics</h4>
+          <span class="date">September 2023 – September 2024</span>
+          <p>
+            Dublin City University, Dublin, Ireland. 
+            Focus on Advanced Data Analytics, Machine Learning, 
+            Statistical Analysis, Data Visualization.
+          </p>
+        </div>
+      </div>
+    
+      <!-- Timeline Item 2 -->
+      <div class="timeline-item">
+        <div class="timeline-icon">
+          <i class="bi bi-cpu"></i>
+        </div>
+        <div class="timeline-content">
+          <h4>Bachelor of Engineering in Computer</h4>
+          <span class="date">August 2019 – May 2023</span>
+          <p>
+            Rajiv Gandhi Institute of Technology, Mumbai. 
+            First Class Honours. Projects on Chatbots & Image Prediction.
+          </p>
+        </div>
+      </div>
+    
+      <!-- Add more timeline items as needed -->
+    </div>
+    
+    <section id="education" class="mb-5">
+      <h2>Education</h2>
+      <div class="mt-3">
+        <h4>Master of Science in Data Analytics (Sep 2023 – Sep 2024)</h4>
+        <p><strong>Dublin City University, Dublin, Ireland</strong></p>
+        <ul>
+          <li>
+            <strong>Core modules:</strong> Advanced Data Analytics, Machine Learning,
+            Statistical Analysis, Data Visualization
+          </li>
+          <li><strong>Projects:</strong></li>
+          <ul>
+            <li>
+              Marketing Models in Data: Built and researched ML models used in marketing, 
+              improving accuracy by 15%.
+            </li>
+            <li>
+              Etsy ML Model Assignment: Enhanced machine learning systems to detect category, 
+              sub-categories, and image classification with higher accuracy (13% improvement).
+            </li>
+          </ul>
+        </ul>
+      </div>
+      <div class="mt-4">
+        <h4>Bachelor of Engineering in Computer (First Class Honours) (Aug 2019 – May 2023)</h4>
+        <p><strong>Rajiv Gandhi Institute of Technology, Mumbai, India</strong></p>
+        <ul>
+          <li>
+            <strong>Core modules:</strong> Data structures &amp; algorithms, Database 
+            management systems, Software Engineering Principles.
+          </li>
+          <li><strong>Projects:</strong></li>
+          <ul>
+            <li>
+              Chatbot Development: Designed a chatbot using deep learning &amp; NLP,
+              resulting in a publication in IEEE.
+            </li>
+            <li>
+              Image &amp; Category Prediction Using Machine Learning: Created and tested ML
+              algorithms with a 13% improvement in model accuracy.
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="mb-5">
+      <h2>Projects</h2>
+
+      <div class="mb-4">
+        <h4>Credit Risk Analysis</h4>
+        <p><strong>Tech Stack:</strong> Python, Tableau, SQL Server</p>
+        <ul>
+          <li>Developed machine learning models to segment customers by risk</li>
+          <li>Built Tableau dashboards for insights, improving decision-making processes</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <!-- EMBEDDED NOTEBOOK -->
+<h2 class="mb-4">Data Science Notebook Demo</h2>
+<div class="ratio ratio-16x9">
+  <iframe
+    src="https://nbviewer.org/github/radiculee/Price-Optimization-model/blob/main/Python%20Scripts/Data%20cleaning%20and%20Random%20Forest%20Regression.ipynb"
+    title="Notebook Demo"
+    frameborder="0"
+    allowfullscreen
+  ></iframe>
+</div>
+
+        <h4>Pricing Optimization and Risk Assessment</h4>
+        <p><strong>Tech Stack:</strong> Python, R</p>
+        <ul>
+          <li>Optimized pricing strategies using K-means clustering and other models</li>
+          <li>Reduced financial risk while ensuring accurate documentation</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h4>Data Warehouse Optimization Project</h4>
+        <p><strong>Tech Stack:</strong> SQL, Alteryx</p>
+        <ul>
+          <li>Designed and optimized ETL processes to improve data load times by 20%</li>
+          <li>Enhanced overall data pipeline performance</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h4>Sentiment Analysis on Amazon Food Reviews</h4>
+        <p><strong>Tech Stack:</strong> Python</p>
+        <ul>
+          <li>
+            Performed sentiment analysis using ML models and techniques 
+            (Logistic Regression, K-means clustering)
+          </li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h4>Training and Certifications</h4>
+        <ul>
+          <li>On-track for 3 Star Gold batch on SQL in Hacker Rank (Ongoing)</li>
+          <li>Career Essentials in Data Analysis by Microsoft and LinkedIn</li>
+          <li>Tableau Training Essentials by LinkedIn</li>
+          <li>SQL Data Analysis by LinkedIn</li>
+        </ul>
+      </div>
+
+      <!-- Example of an embedded GitHub repository or code snippet -->
+      <div class="embed-responsive embed-responsive-16by9 mb-4">
+        <iframe
+          style="width:100%; height:300px;"
+          src="https://ghbtns.com/github-btn.html?user=octocat&repo=Hello-World&type=star&count=true"
+          frameborder="0"
+          scrolling="0"
+          allowtransparency="true"
+          title="GitHub"
+        ></iframe>
+      </div>
+      <!-- Replace the above with your own embed or remove if not needed -->
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="mb-5">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Programming Languages:</strong> Python, SQL</li>
+        <li><strong>Data Analysis:</strong> R, SAP, Excel, Power Query</li>
+        <li><strong>Data Visualization:</strong> Tableau, Power BI, Matplotlib, Seaborn</li>
+        <li><strong>Cloud Platforms:</strong> AWS, Azure</li>
+        <li><strong>Machine Learning:</strong> Logistic Regression, K-means Clustering, Neural Networks</li>
+        <li><strong>Tools &amp; Frameworks:</strong> Git, Docker, Alteryx, ChatGPT, GitHub Co-pilot</li>
+      </ul>
+    </section>
+
+    <!-- OTHER INFORMATION -->
+    <section id="other-info" class="mb-5">
+      <h2>Other Information</h2>
+      <ul>
+        <li>
+          <strong>Soft Skills:</strong> Strategic Communication, Problem Solving, 
+          Attention-to-detail, Critical Thinking, Collaboration, Adaptability, 
+          Time management, Analytical Skills
+        </li>
+        <li>
+          <strong>Achievements:</strong> Taekwondo (Black belt, Gold &amp; Silver Medal), 
+          Football (National level), Valorant E-sports national team
+        </li>
+        <li>
+          <strong>Volunteer Work:</strong> Led a team of 50 volunteers to organize a 
+          college tech fest for 1,000+ participants
+        </li>
+        <li>
+          <strong>Interests:</strong> Globetrotting, Football, E-sports, Taekwondo
+        </li>
+      </ul>
+    </section>
+
+    <!-- CONTACT SECTION WITH FORM -->
+    <section id="contact" class="mb-5">
+      <h2>Contact</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:vedantgaikwad01@gmail.com"
+              >vedantgaikwad01@gmail.com</a
+            >
+          </p>
+          <p><strong>Phone:</strong> +353 899462338</p>
+          <p><strong>Location:</strong> Dublin, Ireland</p>
+          <p>
+            <strong>Links:</strong><br />
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> |
+            <a href="https://www.github.com" target="_blank">GitHub</a> |
+            <a href="https://www.kaggle.com" target="_blank">Kaggle</a>
+          </p>
+        </div>
+        <div class="col-md-6">
+          <!-- Formspree Contact Form -->
+          <form
+            action="https://formspree.io/f/mannlowl"
+            method="POST"
+          >
+            <div class="mb-3">
+              <label for="name" class="form-label"
+                >Name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label"
+                >Email</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="_replyto"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label"
+                >Message</label
+              >
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+                rows="3"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- SCROLL-TO-TOP BUTTON -->
+  <button
+    id="btnScrollTop"
+    class="btn btn-secondary position-fixed"
+    style="bottom: 20px; right: 20px; display: none;"
+  >
+    ↑
+  </button>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">
+      &copy; 2025 Vedant Gaikwad. All rights reserved.
+    </p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
+  <!-- Custom JS -->
+  <script src="scripts/main.js"></script>
+  <!-- LIVE DEMO -->
+</div>
+
+</body>
+</html>
